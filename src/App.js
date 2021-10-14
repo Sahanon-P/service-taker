@@ -1,10 +1,15 @@
-import Profile from './component/Profile'
-import { useState } from 'react'
+
+import React from 'react';
+import NavBar from './component/NavBar'
+import Header from './component/Header'
+
 
 function App() {
-  const [userData, setUserData] = useState()
   return (
-    <Profile userData = {userData}/>
+    <div>
+      <NavBar/>
+      <Header/>
+    </div>
   );
 }
 
