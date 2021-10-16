@@ -1,0 +1,81 @@
+.profile1{
+    text-align: center;
+}
+
+.profile1 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-left: 500px;
+}
+
+.profile2{
+    margin-top: 25px;
+}
+
+
+
+.profile2 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+
+.profile3{
+    margin-top: 25px;
+}
+
+.profile3 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.profile4{
+    margin-top: 25px;
+}
+
+.profile4 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.profile5{
+    margin-top: 25px;
+}
+
+.profile5 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.profile6{
+    margin-top: 25px;
+}
+
+.profile6 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+
+.profile7{
+    margin-top: 25px;
+}
+
+.profile7 .pic{
+    background-image: url('sample.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
