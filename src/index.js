@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './contact.css';
 import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
 
