@@ -1,15 +1,15 @@
 
 import React from 'react';
-import NavBar from './component/NavBar'
-import Header from './component/Header'
+import Login from './component/login'
+import Register from './component/register'
 
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <Header/>
-    </div>
+      <div className="container"> 
+      <Register/> 
+      <Login/>
+      </div>
   );
 }
 

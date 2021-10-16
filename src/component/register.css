@@ -1,0 +1,30 @@
+body {
+    font-family: 'Jura', sans-serif;
+    background-color: rgb(236, 231, 231);
+}
+
+.register {
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(59, 201, 170);
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+button {
+    padding: 4px 10px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    font-size: 15px;
+}
