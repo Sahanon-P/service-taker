@@ -7,70 +7,98 @@ import Beom from './Beom.jpg';
 import M from './M.jpg';
 import First from './First.jpg';
 import React from 'react';
-
+ 
 const ContactProfile = () => {
     return (
         <div className='container' >
         
             <div className='profile1'>
                 <img src={Beom} alt='profile pic' className='pic'></img>
-                <p>Scrum Master</p>
+                <h2>Scrum Master</h2>
                 <p>Potchara Jomjailek</p>
-                <p>Github</p>
-                <p>Tel.</p>         
+                <a href='https://github.com/VonKiar' 
+                target="_blank" 
+                rel="noreferrer">
+                Github: VonKiar
+                </a>
+                <p>Tel. 080-010-0341</p>         
             </div>
             
             <div className="line2">
                 <div className='profile2'>
                     <img src={Pund} alt='profile pic' className='pic'></img>
-                    <p>Project Manager</p>
-                    <p>Panitan Plengkham</p>
-                    <p>Github</p>
-                    <p>Tel.</p>      
+                    <h2>Project Manager</h2>
+                    <a href='https://github.com/PanitanPlengkham' 
+                    target="_blank" 
+                    rel="noreferrer">
+                    Panitan Plengkham
+                    </a>
+                    <p>Github: PanitanPlengkham</p>
+                    <p>Tel. 086-519-4261</p>      
                 </div>
               
                 <div className='profile3'> 
                     <img src={Ping} alt='profile pic' className='pic'></img> 
-                    <p>Tech Lead</p>
+                    <h2>Tech Lead</h2>
                     <p>Sahanon Phisetpakasit</p>
-                    <p>Github</p>
-                    <p>Tel.</p>     
+                    <a href='https://github.com/Sahanon-P' 
+                    target="_blank" 
+                    rel="noreferrer">
+                    Github: Sahanon-P
+                    </a>
+                    <p>Tel. 087-096-6531</p>     
                 </div>
             </div>
 
             <div className="line3">
                 <div className='profile4'>
                     <img src={M} alt='profile pic' className='pic'></img> 
-                    <p>Dev</p>
+                    <h2>Dev</h2>
                     <p>Thornthep Chomchuen</p>
-                    <p>Github</p>
-                    <p>Tel.</p> 
+                    <a href ='https://github.com/Raikirieiei'
+                    target='_blank'
+                    rel='noreferrer'>
+                    Github: Raikirieiei
+                    </a>
+                    <p>Tel. 0813508294</p> 
                 </div>
 
                 <div className='profile5'>
                     <img src={First} alt='profile pic' className='pic'></img> 
-                    <p>Dev</p>
+                    <h2>Dev</h2>
                     <p>Sorawichaya Tiratrakoonwichaya</p>
-                    <p>Github</p>  
-                    <p>Tel.</p>    
+                    <a href='https://github.com/Firstyfirst'
+                    target='_blank'
+                    rel='noreferrer'>
+                    Github: Firstyfirst
+                    </a>  
+                    <p>Tel. 097-145-8461</p>    
                 </div>
             </div>
 
             <div className="line4">
                 <div className='profile6'>
                     <img src={Yo} alt='profile pic' className='pic'></img> 
-                    <p>Dev</p>
+                    <h2>Dev</h2>
                     <p>Chayayot Saerejittima</p>
-                    <p>Github</p>
-                    <p>Tel.</p>      
+                    <a href='https://github.com/chayayot123'
+                    target='_blank'
+                    rel='noreferrer'>
+                    Github: Chayayot123
+                    </a>
+                    <p>Tel. 091-018-9449</p>      
                 </div>
 
                 <div className='profile7'>
                     <img src={Pooh} alt='profile pic' className='pic'></img> 
-                    <p>Dev</p>
+                    <h2>Dev</h2>
                     <p>Sirapop Kunjiak</p>
-                    <p>Github</p>
-                    <p>Tel.</p>        
+                    <a href='https://github.com/bemyXmas'
+                    target='_blank'
+                    rel='noreferrer'>
+                    Github: bemyXmas
+                    </a>
+                    <p>Tel. 0983942623</p>        
                 </div>
             </div>
 
