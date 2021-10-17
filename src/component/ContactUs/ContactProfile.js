@@ -28,12 +28,12 @@ const ContactProfile = () => {
                 <div className='profile2'>
                     <img src={Pund} alt='profile pic' className='pic'></img>
                     <h2>Project Manager</h2>
+                    <p>Panitan Plengkham</p>
                     <a href='https://github.com/PanitanPlengkham' 
                     target="_blank" 
                     rel="noreferrer">
-                    Panitan Plengkham
+                    Github: PanitanPlengkham
                     </a>
-                    <p>Github: PanitanPlengkham</p>
                     <p>Tel. 086-519-4261</p>      
                 </div>
               
@@ -60,7 +60,7 @@ const ContactProfile = () => {
                     rel='noreferrer'>
                     Github: Raikirieiei
                     </a>
-                    <p>Tel. 0813508294</p> 
+                    <p>Tel. 081-350-8294</p> 
                 </div>
 
                 <div className='profile5'>
@@ -98,7 +98,7 @@ const ContactProfile = () => {
                     rel='noreferrer'>
                     Github: bemyXmas
                     </a>
-                    <p>Tel. 0983942623</p>        
+                    <p>Tel. 098-394-2623</p>        
                 </div>
             </div>
 
