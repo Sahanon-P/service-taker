@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-// import CreateAccount from './CreateAccount'
+import CreateAccount from './CreateAccount'
 import Welcome from './Welcome'
 
 ReactDOM.render(
