@@ -1,0 +1,120 @@
+.container{
+    font-family: 'Jura', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.profile1{
+    text-align: center;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 30px auto;
+}
+
+.profile1 .pic{
+    height: 250px;
+    width: 300px;
+}
+
+.line2{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.profile2{
+    margin-top: 25px;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    
+}
+
+.profile2 .pic{
+    height: 250px;
+    width: 300px;
+
+} 
+
+.profile3{
+    margin-top: 25px;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    margin-left: 370px;
+}
+
+.profile3 .pic{
+    height: 250px;
+    width: 300px;
+    
+}
+
+.line3{
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.profile4{
+    margin-top: 40px;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+}
+
+.profile4 .pic{
+    height: 250px;
+    width: 300px;
+}
+
+.profile5{
+    margin-top: 40px;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    margin-left: 370px;
+}
+
+.profile5 .pic{
+    height: 250px;
+    width: 300px;
+}
+
+.line4{
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+}
+
+.profile6{
+    margin-top: 40px;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+}
+
+.profile6 .pic{
+    height: 250px;
+    width: 300px;
+}
+
+
+.profile7{
+    margin-top: 40px;
+    background-color: rgb(219, 203, 203);
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    margin-left: 370px;
+}
+
+.profile7 .pic{
+    height: 250px;
+    width: 300px;
+}
+

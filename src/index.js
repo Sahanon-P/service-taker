@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import Home from './Home';
 import NewBooking from './NewBooking';
+import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Home /> */}
     <NewBooking/>
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
