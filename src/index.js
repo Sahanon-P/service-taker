@@ -5,12 +5,16 @@ import './index.css';
 import NewBooking from './NewBooking';
 import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
+import CreateAccount from './CreateAccount'
+import Welcome from './Welcome'
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Home /> */}
     <NewBooking/>
     <Contact />
+    <Welcome/>
+    {/* <CreateAccount/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
