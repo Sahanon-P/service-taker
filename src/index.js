@@ -4,11 +4,15 @@ import './index.css';
 // import Home from './Home';
 import NewBooking from './NewBooking';
 import reportWebVitals from './reportWebVitals';
+import CreateAccount from './CreateAccount'
+import Welcome from './Welcome'
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Home /> */}
     <NewBooking/>
+    <Welcome/>
+    {/* <CreateAccount/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
