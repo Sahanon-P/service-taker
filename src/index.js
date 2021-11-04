@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Home from './Home';
-import NewBooking from './NewBooking';
+import Home from './Home';
+// import NewBooking from './NewBooking';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Home /> */}
-    <NewBooking/>
+    <Home />
+    {/* <NewBooking/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
