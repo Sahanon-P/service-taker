@@ -4,12 +4,9 @@ import NavBar from './component/NavBar';
 
 function Welcome() {
     return ( < div >
-        <
-        NavBar / >
-        <
-        Login / >
-        <
-        /div>
+        <NavBar/>
+        <Login/>
+        </div>
 
     );
 }
