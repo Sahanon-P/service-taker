@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './component/new_booking/Form';
+import Form from './component/new_booking/Form';
 
 function NewBooking() {
     return (
-        <Header/>
+        <Form/>
     );
 }
 

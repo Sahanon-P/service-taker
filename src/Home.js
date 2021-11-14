@@ -1,12 +1,14 @@
 import React from 'react';
-import NavBar from './component/home/NavBar'
-import Header from './component/home/Header'
+import NavBar from './component/nav_bar/NavBar';
+import Body from './component/home/Body';
+// import Header from './component/home/Header'
 
 function Home() {
   return (
     <div>
       <NavBar/>
-      <Header/>
+      <Body/>
+      {/* <Header/> */}
     </div>
   );
 }

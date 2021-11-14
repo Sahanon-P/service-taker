@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Home from './Home';
+import Home from './Home';
+// import NewBooking from './NewBooking';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 
@@ -9,12 +10,8 @@ import Reservation from './Reservation'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Home /> */}
+    <Home />
     {/* <NewBooking/> */}
-    {/* <Contact />}
-    {<Welcome/> */}
-    <Reservation/>
-    {/* <CreateAccount/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
