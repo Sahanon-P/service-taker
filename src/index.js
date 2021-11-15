@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home';
-// import NewBooking from './NewBooking';
-import reportWebVitals from './reportWebVitals';
 import App from './App';
-
-import Reservation from './Reservation'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
-    {/* <NewBooking/> */}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
