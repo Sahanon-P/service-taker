@@ -42,18 +42,18 @@ const Login = () => {
                 <br/>
                 <button onClick = {createAccount}>Create account</button>
             </div>
-            <Form onSubmit = {handleSubmit}>
                 <div className='login'>
+                <Form onSubmit = {handleSubmit}>
                     <h1>SIGN IN</h1>
                     {error && <Alert variant = "danger" >{error}</Alert>}
                     <Form.Label><b>Email</b></Form.Label>
-                    <input type='email' placeholder='example.user@ku.th' ref = {emailRef} required/>
+                    <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required/>
                     <Form.Label><b>Citizen Id</b></Form.Label>
                     <input type='password' placeholder='Citizen Id' ref = {idRef} required/>
                     <br/>
                     <button type = "submit" disabled = {loading} >Log In</button>
+                </Form>
                 </div>
-            </Form>
         </div>
     )
 };
