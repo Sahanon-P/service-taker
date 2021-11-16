@@ -2,19 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import Home from './Home';
-import NewBooking from './NewBooking';
-import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
 import CreateAccount from './CreateAccount'
-import Welcome from './Welcome'
+// import Welcome from './Welcome'
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Home /> */}
-    <NewBooking/>
-    <Contact />
-    <Welcome/>
-    {/* <CreateAccount/> */}
+    {/* <NewBooking/> */}
+    {/* <Contact /> */}
+    {/* <Welcome/> */}
+    <CreateAccount/>
   </React.StrictMode>,
   document.getElementById('root')
 );

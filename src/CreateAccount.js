@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './component/NavBar';
 import Register from './component/Login_Regis_page/Register';
+import Navbar from './component/nav_bar/NavBar'
 
 function Welcome() {
     return ( <div >
-        <NavBar/>
+        <Navbar/>
         <Register/>
         </div>
 

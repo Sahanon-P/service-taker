@@ -1,29 +1,39 @@
-.login {
+body {
     font-family: 'Jura', sans-serif;
-    padding: 60px;
-    box-sizing: border-box;
-    background-color: rgb(59, 201, 170);
-    border: 20px solid #f1f1f1;
-    margin: auto 10px;
-    width: 50%;
+    background-color: rgb(255, 255, 255);
 }
 
-.account {
-    display: flex;
-    font-family: 'Jura', sans-serif;
-    padding: 60px;
+* {
     box-sizing: border-box;
-    background-color: rgb(59, 201, 170);
-    border: 20px solid #f1f1f1;
-    margin: auto 10px;
-    width: 50%;
 }
 
 .container {
     display: flex;
+    padding: 30px;
+    margin: 20;
+    padding: 20;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.login {
+    border-style: solid;
+    border-color: rgb(113, 173, 173);
+    background-color: rgb(89, 187, 187);
+    border-width: 10px;
+    font-family: 'Jura', sans-serif;
+    padding: 10%;
+    width: 100%;
+    margin-left: 20px;
 }
 
 button {
+    font-family: 'Jura', sans-serif;
     padding: 4px 10px;
     background-color: aquamarine;
     border-radius: 4px;

@@ -1,25 +1,37 @@
-.register {
+body {
     font-family: 'Jura', sans-serif;
-    padding: 60px;
-    box-sizing: border-box;
-    background-color: rgb(59, 201, 170);
-    border: 20px solid hsl(0, 0%, 95%);
-    margin: auto 10px;
-    width: 50%;
+    background-color: rgb(0, 0, 0);
 }
 
-button {
-    padding: 4px 10px;
-    background-color: aquamarine;
-    border-radius: 4px;
-    font-size: 15px;
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px;
+    background-color: white;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: rgb(89, 187, 187);
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 input[type=text],
 input[type=password] {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0 10px 0;
+    padding: 15px;
+    margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
@@ -27,5 +39,23 @@ input[type=password] {
 
 input[type=text]:focus,
 input[type=password]:focus {
-    background-color: white;
+    background-color: #ddd;
+    outline: none;
+}
+
+.registerbtn {
+    background-color: rgb(89, 187, 187);
+    font-family: 'Jura', sans-serif;
+    color: rgb(9, 10, 10);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 1.2em;
+}
+
+.registerbtn:hover {
+    opacity: 1;
 }

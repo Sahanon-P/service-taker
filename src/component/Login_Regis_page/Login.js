@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <div className='container'>
             <div className='login'>
-                <h1>Create Account</h1>
+                <h2>Create Account</h2>
                 <ul>Service-Taker application, get the vaccine on time.
                     <br/>
                     Now more secure, smarter and easier to use, 
@@ -16,11 +16,11 @@ const Login = () => {
             </div>
 
             <div className='login'>
-                <h1>SIGN IN</h1>
+                <h2>SIGN IN</h2>
                 <label><b>Email</b></label>
-                <input type='text' placeholder='example.user@ku.th' required/>
+                <input type="text" placeholder="Enter your email address" required/>
                 <label><b>Password </b></label>
-                <input type='password' placeholder='example.password'required/>
+                <input type='password' placeholder="Enter your password"required/>
                 <br/>
                 <button>Sign in</button>
             </div>
