@@ -20,9 +20,6 @@ const Login = () => {
             history.push("/")
         }
         catch{
-            console.log(emailRef.current.value)
-            console.log(idRef.current.value)
-            console.log(e)
             setError('Failed to Log In')
         }
         setLoading(false)
@@ -46,10 +43,10 @@ const Login = () => {
                 <Form onSubmit = {handleSubmit}>
                     <h1>SIGN IN</h1>
                     {error && <Alert variant = "danger" >{error}</Alert>}
-                    <Form.Label><b>Email</b></Form.Label>
-                    <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required/>
                     <Form.Label><b>Citizen Id</b></Form.Label>
-                    <input type='password' placeholder='Citizen Id' ref = {idRef} required/>
+                    <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required/>
+                    <Form.Label><b>Password</b></Form.Label>
+                    <input type='password' placeholder='password' ref = {idRef} required/>
                     <br/>
                     <button type = "submit" disabled = {loading} >Log In</button>
                 </Form>

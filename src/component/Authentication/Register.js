@@ -41,7 +41,9 @@ const Register = () => {
         }
         setLoading(false)
     }
-
+    function back(){
+        history.push("/home")
+    }
     return (
             <div className='register'>
             <Form onSubmit={handleSubmit}>
@@ -65,6 +67,7 @@ const Register = () => {
                 <input type='password' placeholder='Password' ref = {passwordRef} required/>
                 <br/>
                 <button type = "submit" disabled = {loading} >Register</button>
+                <button onClick = {back}>Back</button>
             </Form>
             </div>
     )
