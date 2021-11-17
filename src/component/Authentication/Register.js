@@ -42,7 +42,7 @@ const Register = () => {
         setLoading(false)
     }
     function back(){
-        history.push("/home")
+        history.push("/")
     }
     return (
             <div className='register'>
