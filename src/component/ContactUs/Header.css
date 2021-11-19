@@ -2,7 +2,6 @@
 .header {
     bottom: 10px;
     font-family: 'Jura', sans-serif;
-    padding-top: 40px;
 }
 
 .header h1{
@@ -12,9 +11,8 @@
     border-radius: 10px;
     outline-style: outset;
     outline-color: brown;
-    height: 50px;
+
     max-width: 500px;
     margin: 30px auto;
-    padding-top: 15px;
     text-align: center;
 } 

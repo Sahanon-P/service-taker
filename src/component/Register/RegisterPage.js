@@ -1,3 +1,4 @@
+// import { Button } from 'react-bootstrap';
 import React, {useState, useEffect}from 'react'
 import NavBar from '../NavBar/NavBar';
 import './RegisterPage.css'

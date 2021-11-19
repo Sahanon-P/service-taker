@@ -8,6 +8,7 @@ import Home from './Home'
 import RegisterPage from './component/Register/RegisterPage'
 import Contact from './Contact'
 
+
 function App() {
     return (
           <Router>

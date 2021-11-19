@@ -2,10 +2,10 @@
 .header {
     bottom: 10px;
     font-family: 'Jura', sans-serif;
-    padding-top: 60px;
+
 }
 
-.header h1{
+.header .header-txt{
 
     border-radius: 10px;
     background-color: rgba(129, 122, 122, 0.2);

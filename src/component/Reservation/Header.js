@@ -5,7 +5,7 @@ import './Header.css'
 const Header = ({title}) => {
     return (
         <header className= "header">
-            <h1>{title}</h1>
+            <h1 className="header-txt">{title}</h1>
         </header>
     )
 }
