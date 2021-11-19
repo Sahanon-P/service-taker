@@ -8,12 +8,12 @@
     --color-contract: #2980B9;
     --color-logout: #8110CD;
 }
-  
+/*   
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
   
 body {
     width: 100%;
@@ -29,6 +29,7 @@ body {
     grid-template-columns: auto 1fr;
     /* center the items vertically */
     align-items: center;
+    margin-top: -50px;
 }
   
 .Navbar h2 {

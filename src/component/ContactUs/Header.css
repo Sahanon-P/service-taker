@@ -4,15 +4,16 @@
     font-family: 'Jura', sans-serif;
 }
 
-.header h1{
-    
-    background-color: rgb(219, 203, 203);
-    border: 1px solid steelblue;
+.header .contact-title{
     border-radius: 10px;
-    outline-style: outset;
-    outline-color: brown;
+    background-color: rgba(129, 122, 122, 0.2);
+    font-size: 45px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    color: rgb(89, 187, 187);
+    display: block;
+    font-weight: bold;
 
-    max-width: 500px;
-    margin: 30px auto;
-    text-align: center;
 } 

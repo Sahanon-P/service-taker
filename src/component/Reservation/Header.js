@@ -4,8 +4,8 @@ import './Header.css'
 
 const Header = ({title}) => {
     return (
-        <header className= "header">
-            <h1 className="header-txt">{title}</h1>
+        <header className= "header-container">
+            <h2 className="header-txt">{title}</h2>
         </header>
     )
 }

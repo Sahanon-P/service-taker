@@ -1,0 +1,245 @@
+.container-contact1{
+    display: flex;
+    text-align: center;
+}
+
+.pic1{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail1 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.profile-detail1 a{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.profile-detail1 p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+} 
+
+.container-contact2{
+    text-align: center;
+    display: flex;
+    margin-left: 24cm;
+  
+}
+
+.pic2{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail2 {
+    padding-right: 20px;
+    max-width: 100%;
+}
+
+.profile-detail2 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.profile-detail2 a{
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.profile-detail2 p{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.container-contact3{
+    display: flex;
+    text-align: center;
+}
+
+.pic3{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail3 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.profile-detail3 a{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.profile-detail3 p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.container-contact4{
+    text-align: center;
+    display: flex;
+    margin-left: 24.85cm;
+  
+}
+
+.pic4{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail4 {
+    padding-right: 20px;
+    max-width: 100%;
+}
+
+.profile-detail4 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.profile-detail4 a{
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.profile-detail4 p{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.container-contact5{
+    display: flex;
+    text-align: center;
+}
+
+.pic5{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail5 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.profile-detail5 a{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.profile-detail5 p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+
+.container-contact6{
+    text-align: center;
+    display: flex;
+    margin-left: 24.85cm;
+  
+}
+
+.pic6{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail6 {
+    padding-right: 20px;
+    max-width: 100%;
+}
+
+.profile-detail6 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.profile-detail6 a{
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.profile-detail6 p{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.container-contact7{
+    display: flex;
+    text-align: center;
+}
+
+.pic7{
+    border-radius: 50px;
+    border: 3px solid steelblue;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-detail7 h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.profile-detail7 a{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.profile-detail7 p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+}

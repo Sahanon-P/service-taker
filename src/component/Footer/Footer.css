@@ -3,8 +3,13 @@
     margin-top: 80px;
     padding-bottom: 0.1px;
     text-align: center;
-    bottom: 0;
-    width: 100%;
     font-size: 15px;
     background-color: rgba(129, 122, 122, 0.3);
+    line-height: 0.15cm;
+    margin-bottom: -12px;
+}
+
+.footer h2{
+   padding-top: 25px;
+   padding-bottom: 20px;
 }
