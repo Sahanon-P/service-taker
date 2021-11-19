@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './component/nav_bar/NavBar';
-import Body from './component/home/Body';
+import NavBar from './component/NavBar/NavBar';
+import Body from './component/Home/Body';
 // import Header from './component/home/Header'
 
 function Home() {

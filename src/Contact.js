@@ -1,12 +1,13 @@
 import Header from './component/ContactUs/Header'
 import ContactProfile from './component/ContactUs/ContactProfile'
-import Navbar from './component/nav_bar/NavBar'
 import Footer from './component/Footer/Footer'
+import NavBar from './component/NavBar/NavBar'
+
 
 function Contact() {
   return (
     <div>
-      <Navbar/>
+      <NavBar/>
       <Header title={'Contact Us'}/>
       <ContactProfile />
       <Footer/>
