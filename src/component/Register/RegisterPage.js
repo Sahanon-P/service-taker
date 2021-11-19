@@ -47,9 +47,9 @@ const RegisterPage = () => {
     // string object inplace of user object as a example. Users = user data as an array.
     const users = ["Vaccine Name #0001", "Vaccine Name #0002", "Vaccine Name #0003", "Vaccine Name #0004", "Vaccine Name #0005"]; 
     return (
-        <div>
+        <div className="register-page-container">
             <NavBar/>
-            <h1>Vaccine Status</h1>
+            <h2 className="header-text">Vaccine Status</h2>
             <ul>
             <p>Citizen: {data.citizen_id}</p>
             <p>Name: {data.name} {data.surname}</p>

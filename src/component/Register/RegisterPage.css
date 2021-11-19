@@ -1,0 +1,22 @@
+.register-page-container .header-text{
+    border-radius: 10px;
+    background-color: rgba(129, 122, 122, 0.2);
+    font-size: 45px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    color: rgb(89, 187, 187);
+    display: block;
+    font-weight: bold;
+}
+
+.register-page-container p{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.register-page-container ul{
+    font-size: 18px;
+    margin-left: 50px;
+}

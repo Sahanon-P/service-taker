@@ -7,6 +7,7 @@ import PrivateRoute from "./PrivateRoute";
 import Home from './Home'
 import RegisterPage from './component/Register/RegisterPage'
 import Contact from './Contact'
+import Reservation from './Reservation';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/login" component ={Login}/>
                 <Route path="/detail" component ={RegisterPage}/>
                 <Route path="/contact" component = {Contact} />
+                <Route path="/reservation" component ={Reservation}/>
               </Switch>
             </AuthProvider>
           </Router>

@@ -1,11 +1,11 @@
 
-.header {
+.header-container {
     bottom: 10px;
     font-family: 'Jura', sans-serif;
 
 }
 
-.header .header-txt{
+.header-container .header-txt{
 
     border-radius: 10px;
     background-color: rgba(129, 122, 122, 0.2);
@@ -14,4 +14,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 150px;
+    color: rgb(89, 187, 187);
+    display: block;
+    font-weight: bold;
 } 
