@@ -6,12 +6,9 @@ import { db } from '../../firebase';
 import {useAuth} from '../../contexts/AuthContext'
 import axios from 'axios'
 
-const request = axios.create()
-
 const RegisterPage = () => {
     const {currentUser} = useAuth()
     const [id,setId] = useState()
-    const [password, setPassword] = useState()
     const [token, setToken] = useState()
     const [data, setData] = useState({
         citizen_id : "",
@@ -35,8 +32,8 @@ const RegisterPage = () => {
         }, function(error, response, body){
             setToken(body.access_token)
         })
+        console.log(token)
         setId(id)
-        setPassword(pass)
     }
     useEffect (() => {
         setState()
@@ -45,7 +42,6 @@ const RegisterPage = () => {
         });
     })
     // string object inplace of user object as a example. Users = user data as an array.
-    const users = ["Vaccine Name #0001", "Vaccine Name #0002", "Vaccine Name #0003", "Vaccine Name #0004", "Vaccine Name #0005"]; 
     return (
         <div className="register-page-container">
             <NavBar/>

@@ -1,20 +1,18 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './NavBar.css'
 import {Link, useHistory} from 'react-router-dom'
 import { useAuth } from '../../contexts/AuthContext'
 
 const NavBar = () => {
-    const [error, setError] = useState("")
-    const {currentUser, logout} = useAuth()
+    const {logout} = useAuth()
     const history = useHistory()
     async function handleLogOut(){
-        setError('')
         try{
             await logout()
             history.push("/login")
         }
         catch{
-            setError('Failed to log out')
+            console.log('Failed to log out')
         }
     }
     
@@ -36,6 +34,8 @@ const NavBar = () => {
             case "purple":
                 icon.style.color = "#8110CD";
                 break;
+            default:
+                console.log("default");
         }
     }
 

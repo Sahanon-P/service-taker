@@ -12,7 +12,6 @@ export function useAuth(){
 
 export function AuthProvider({children}) {
     const [currentUser, setCurrentUser] = useState()
-    const [userToken, setUserToken] = useState()
     const [loading, setLoading] = useState(true)
     async function signup(email,password, name, surname, citizenId, birthDate, occupation, address) {
         const body = {
@@ -25,6 +24,7 @@ export function AuthProvider({children}) {
             "password": password
         };
         const response = await request.post("https://flamxby.herokuapp.com/user/", body)
+        console.log(response)
         try {
             const res = await auth.createUserWithEmailAndPassword(email, password);
             const user = res.user;
