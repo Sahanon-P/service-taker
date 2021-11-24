@@ -31,6 +31,16 @@ h2 {
     width: 100%;
     margin-left: 20px;
 }
+.signup {
+    border-style: solid;
+    border-color: rgb(113, 173, 173);
+    background-color: rgb(89, 187, 187);
+    border-width: 10px;
+    font-family: 'Jura', sans-serif;
+    padding: 10%;
+    width: 100%;
+    margin-left: 20px;
+}
 
 button {
     font-family: 'Jura', sans-serif;

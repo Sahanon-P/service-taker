@@ -50,24 +50,24 @@ const Register = () => {
                 <h1>Create Account</h1>
                 {error && <Alert variant = "danger" >{error}</Alert>}
                 <Form.Label><b>Name</b></Form.Label>
-                <input type='text' placeholder='Name' ref = {nameRef} required/>
+                <input type='text' placeholder='Name' ref = {nameRef} required id ="name"/>
                 <Form.Label><b>Surname</b></Form.Label>
-                <input type='text' placeholder='Surname' ref = {surnameRef} required/>
+                <input type='text' placeholder='Surname' ref = {surnameRef} required id = "surname"/>
                 <Form.Label><b>Citizen Id</b></Form.Label>
-                <input type='text' placeholder='Citizen Id' ref = {idRef} required/>
+                <input type='text' placeholder='Citizen Id' ref = {idRef} required id = "citizen_id"/>
                 <Form.Label><b>Birth Date</b></Form.Label>
-                <input type='date' ref = {dateRef} required/>
+                <input type='date' ref = {dateRef} required id= "date"/>
                 <Form.Label><b>Occupation</b></Form.Label>
-                <input type='text' placeholder='Occupation' ref = {occupationRef} required/>
+                <input type='text' placeholder='Occupation' ref = {occupationRef} required id="occupation"/>
                 <Form.Label><b>Address</b></Form.Label>
-                <input type='text' placeholder='Address' ref = {addressRef} required/>
+                <input type='text' placeholder='Address' ref = {addressRef} required id="address"/>
                 <Form.Label><b>Email</b></Form.Label>
-                <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required/>
+                <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required id="email"/>
                 <Form.Label><b>Password</b></Form.Label>
-                <input type='password' placeholder='Password' ref = {passwordRef} required/>
+                <input type='password' placeholder='Password' ref = {passwordRef} required id="password"/>
                 <br/>
-                <button type = "submit" disabled = {loading} >Register</button>
-                <button onClick = {back}>Back</button>
+                <button type = "submit" disabled = {loading} id="register-btn">Register</button>
+                <button onClick = {back} id ="back-btn" >Back</button>
             </Form>
             </div>
     )

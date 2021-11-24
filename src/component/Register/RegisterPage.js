@@ -59,7 +59,7 @@ const RegisterPage = () => {
                 </div>
             ))}
             </ul>
-            <button>Register</button>
+            <button id = "register-btn">Register</button>
         </div>
       );
 };

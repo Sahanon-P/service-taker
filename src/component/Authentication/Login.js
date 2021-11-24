@@ -29,7 +29,7 @@ const Login = () => {
     }
     return (
         <div className='container'>
-            <div className='login'>
+            <div className='signup'>
                 <h1>Create Account</h1>
                 <ul>Service-Taker application, get the vaccine on time.
                     <br/>
@@ -37,18 +37,18 @@ const Login = () => {
                     helping you save time with service taker application.
                 </ul>
                 <br/>
-                <button onClick = {createAccount}>Create account</button>
+                <button onClick = {createAccount} id = "signup-btn">Create account</button>
             </div>
                 <div className='login'>
                 <Form onSubmit = {handleSubmit}>
                     <h1>SIGN IN</h1>
                     {error && <Alert variant = "danger" >{error}</Alert>}
                     <Form.Label><b>Email</b></Form.Label>
-                    <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required/>
+                    <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required id = "email-input"/>
                     <Form.Label><b>Password</b></Form.Label>
-                    <input type='password' placeholder='password' ref = {idRef} required/>
+                    <input type='password' placeholder='password' ref = {idRef} required id = "password-input"/>
                     <br/>
-                    <button type = "submit" disabled = {loading} >Log In</button>
+                    <button type = "submit" disabled = {loading} id = "login-btn">Log In</button>
                 </Form>
                 </div>
         </div>
