@@ -1,27 +1,27 @@
 import React from 'react'
 import './Body.css'
-import {Link} from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
-
+import {useHistory} from 'react-router-dom';
 
 const Body = () => {
+    const history = useHistory();
+    const detailClick = () => history.push('/detail');
+    const contactClick = () => history.push('/contact');
+
     return (
         <div className="container">
             <table>
                 <tr>
                     <th colspan="2">
-                        <div className="box">
-                            <h2><Link to="/detail">My vaccine</Link></h2>
-                        </div>
+                        <button type="button" className="btn" onClick={() => detailClick()}>My vaccine</button>
                     </th>
                 </tr>
                 <tr>
-                    <td><div className="box">
-                        <h2>Walk In</h2>
-                    </div></td>
-                    <td><div className="box">
-                        <h2><Link to="/contact">Contact Us</Link></h2>
-                    </div></td>
+                    <td>
+                        <button type="button" className="btn">Walk In</button>
+                    </td>
+                    <td>
+                        <button type="button" className="btn" onClick={() => contactClick()}>Contact Us</button>
+                    </td>
                 </tr>
             </table>
         </div>

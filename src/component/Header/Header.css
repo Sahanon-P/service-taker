@@ -1,7 +1,14 @@
 
 .header-container {
-    bottom: 10px;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    /* background: greenyellow; */
+    width: 75%;
+    left:12.5%;
+    /* bottom: 10px; */
     font-family: 'Jura', sans-serif;
+    /* margin-top: 20%; */
 
 }
 
@@ -13,7 +20,7 @@
     margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 150px;
+    padding-left: 30px;
     color: rgb(89, 187, 187);
     display: block;
     font-weight: bold;

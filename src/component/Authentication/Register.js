@@ -5,6 +5,7 @@ import {useAuth} from '../../contexts/AuthContext'
 import {useHistory} from 'react-router-dom'
 
 
+
 const Register = () => {
     const emailRef = useRef()
     const nameRef = useRef()
@@ -65,9 +66,9 @@ const Register = () => {
                 <input type='text' placeholder='example.user@ku.th' ref = {emailRef} required/>
                 <Form.Label><b>Password</b></Form.Label>
                 <input type='password' placeholder='Password' ref = {passwordRef} required/>
-                <br/>
+                <hr/>
                 <button type = "submit" disabled = {loading} >Register</button>
-                <button onClick = {back}>Back</button>
+                <button className="back-btn" onClick = {back}>Back</button>
             </Form>
             </div>
     )

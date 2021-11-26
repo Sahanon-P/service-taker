@@ -3,15 +3,29 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+.createAccount-btn {
+    margin-left: 40px;
 }
 
 .container {
     display: flex;
-    padding: 30px;
-    margin: 20;
-    padding: 20;
+    /* padding: 30px; */
+    margin-top: 45px;
+    margin-left: 15px;
+    width: 95%;
+    height: 620px;
+    /* margin: 20 */
+    /* padding: 20; */
+    
+}
+
+.container .login h1 {
+    margin-top: 20%;
+    color: #F1C40F;
 }
 
 h2 {
@@ -27,9 +41,10 @@ h2 {
     background-color: rgb(89, 187, 187);
     border-width: 10px;
     font-family: 'Jura', sans-serif;
-    padding: 10%;
+    padding: 5%;
+    /* height: 70%; */
     width: 100%;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 button {

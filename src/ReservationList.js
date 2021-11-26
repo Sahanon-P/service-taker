@@ -1,18 +1,18 @@
 import React from 'react'
 import NavBar from './component/NavBar/NavBar'
 import Header from './component/Header/Header'
-import ReserveInfo from './component/Reservation/ReserveInfo'
+import ReserveList from './component/Register/ReserveList'
 
 
-const Reservation = () => {
+const ReservationList = () => {
     return (
         <div>
             <NavBar/>
-            <Header title={'Vaccine Information'}/ >
-            <ReserveInfo/>
+            <Header title={'Vaccine Status'}/ >
+            <ReserveList/>
         </div>
     );
 }
 
 
-export default Reservation
+export default ReservationList

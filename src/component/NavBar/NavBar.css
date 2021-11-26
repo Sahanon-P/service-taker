@@ -3,10 +3,10 @@
     --color-bg: #fff;
     --color-txt: #252525;
     --color-home: #F1C40F;
-    --color-vaccine: #16A085;
+    --color-vaccine: #8110CD;
     --color-guide: #E74C3C;
-    --color-contract: #2980B9;
-    --color-logout: #8110CD;
+    --color-contact: #2980B9;
+    --color-init:#16A085;
 }
 /*   
 * {
@@ -32,11 +32,11 @@ body {
     margin-top: -50px;
 }
   
-.Navbar h2 {
+.Navbar h3 {
     /* include padding instead of margin to have the header attached to the window's borders (and therefore to avoid the string included with a pseudo element from being displayed inappropriately to the left of the header) */
     padding: 0.05rem 0.75rem;
-    font-size: 55px;
-    color: var(--color-home);
+    font-size: 45px;
+    color: var(--color-init);
     font-weight:bolder;
     /* position relative to absolute position the pseudo element */
     position: relative;
@@ -84,7 +84,7 @@ body {
   
   /* include the different colors for the different anchor links */
 .Navbar ul li:nth-of-type(1) a:before {
-    background-color: var(--color-home);
+    background: var(--color-home);
 }
 .Navbar ul li:nth-of-type(2) a:before {
     background: var(--color-vaccine);
@@ -93,17 +93,18 @@ body {
     background: var(--color-guide);
 }
 .Navbar ul li:nth-of-type(4) a:before {
-    background: var(--color-contract);
+    background: var(--color-contact);
 }
   
 .Navbar ul li a:hover:before {
     /* on hover, change the bottom property to have the faux-border stretch from the top down */
     bottom: -5px;
+    pointer-events: auto;
 }
   
 h1 {
     /* style the header to have the color matching the background of the header in the navbar */
-    color: var(--color-home);
+    color: var(--color-init);
     text-transform: uppercase;
     text-align: center;
     margin-top: 20vh;
@@ -117,14 +118,14 @@ h1 {
   */
   
 @media (max-width: 750px) {
-    .Navbar h2:before {
+    .Navbar h3:before {
       display: none;
     }
 }
   
 @media (max-width: 400px) {
     /* adjust the visible anchor link elements to show them in a single column, centered in the page */
-    .Navbar h2 {
+    .Navbar h3 {
       display: none;
     }
     .Navbar ul {

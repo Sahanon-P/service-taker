@@ -1,4 +1,4 @@
-import Header from './component/ContactUs/Header'
+import Header from './component/Header/Header'
 import ContactProfile from './component/ContactUs/ContactProfile2'
 import NavBar from './component/NavBar/NavBar'
 
@@ -8,7 +8,7 @@ function Contact() {
     <div>
       <NavBar/>
       <Header title={'Contact Us'}/>
-      <ContactProfile />
+      <ContactProfile/>
     </div>
   );
 }

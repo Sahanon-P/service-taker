@@ -1,9 +1,8 @@
 // import { Button } from 'react-bootstrap';
 import React, {useState, useEffect}from 'react'
-import NavBar from '../NavBar/NavBar';
-import './RegisterPage.css'
+import './ReserveList.css'
 import { db } from '../../firebase';
-import {useAuth} from '../../contexts/AuthContext'
+import {useAuth} from '../../contexts/AuthContext';
 import axios from 'axios'
 
 const request = axios.create()
@@ -48,22 +47,20 @@ const RegisterPage = () => {
     const users = ["Vaccine Name #0001", "Vaccine Name #0002", "Vaccine Name #0003", "Vaccine Name #0004", "Vaccine Name #0005"]; 
     return (
         <div className="register-page-container">
-            <NavBar/>
-            <h2 className="header-text">Vaccine Status</h2>
-            <ul>
-            <p>Citizen: {data.citizen_id}</p>
-            <p>Name: {data.name} {data.surname}</p>
-            <p>Occupation: {data.occupation} </p>
-            <p>Address: {data.address}</p>
+            <div className="box">
+                <p><span className="Span-text">Citizen:</span>    {data.citizen_id}</p>
+                <p><span className="Span-text">Name:</span>       {data.name} {data.surname}</p>
+                <p><span className="Span-text">Occupation:</span> {data.occupation} </p>
+                <p><span className="Span-text">Address:</span>    {data.address}</p>
+            </div>
             {data.reservations.map(reservation => (
-                <div>
+                <div className="box">
                     <ul> Reservation {reservation.reservation_id} </ul>
                     <ul>{reservation.register_timestamp}</ul>
                     <br/>
                 </div>
             ))}
-            </ul>
-            <button>Register</button>
+            <button className="Register">Register</button>
         </div>
       );
 };

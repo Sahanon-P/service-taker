@@ -7,7 +7,8 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.register {
+    margin-top: -10%;
     padding: 30px;
     background-color: white;
 }
@@ -49,4 +50,8 @@ input[type=password]:focus {
 
 .registerbtn:hover {
     opacity: 1;
+}
+
+.back-btn {
+    margin-left: 30px;
 }
