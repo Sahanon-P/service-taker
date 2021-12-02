@@ -45,7 +45,7 @@ const NavBar = () => {
             <ul>
                 <li><Link to="/" onClick={() => changeColor("yellow")}>Home</Link></li>
                 <li><Link to="/detail" onClick={() => changeColor("green")}>My vaccine</Link></li>
-                <li><Link to="#guide" onClick={() => changeColor("red")}>Walk In</Link></li>
+                <li><Link to="/walkin" onClick={() => changeColor("red")}>Walk In</Link></li>
                 <li><Link to="/contact" onClick={() => changeColor("blue")}>Contact us</Link></li>
                 <li><Link to="/logout" onClick={handleLogOut}>Log Out</Link></li>
             </ul>

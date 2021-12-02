@@ -1,27 +1,45 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './ReserveInfo.css'
+import axios from 'axios'
+import { useHistory } from 'react-router'
 
-const ReserveInfo = ({data}) => {
+const ReserveInfo = ({id}) => {
+    const history = useHistory()
+    const [data, setData] = useState({
+        "reservation_id": 0,
+        "register_timestamp": "",
+        "name": "",
+        "surname": "",
+        "birth_date": "",
+        "citizen_id": "",
+        "occupation": "",
+        "address": "",
+        "priority": "",
+        "vaccinated": false,
+        "vac_time": 0
+    })
+    useEffect(()=>{
+        axios.get(`https://suchonsite-server.herokuapp.com/people/by_reservationID/${id}`).then(resp => {
+            console.log("setting")
+            if(resp.data){
+                console.log(resp.data)
+                setData(resp.data)
+            }
+        });
+    },[id])
+
     return (
         <div>
             <div className="subhead1">
+                {/* <p> {data} </p> */}
                 <p1 >Vaccine Reservation Detail</p1>
-                <p>ID: </p>
-                <p>Schedule: </p>
-                <p>Vaccine: </p>
-                <p>Registered: </p>
-                <p>Status: </p>
-            </div>
-
-            <div className="subhead2">
-                <p1 >User's Information</p1>
-                <p>Citizen: </p>
-                <p>Name: </p>
+                <p>ID: {id}</p>
                 <p>Date: </p>
-                <p>Phone: </p>
-                <p>Email: </p>
-                <p>Occupation: </p>
-                <p>Address: </p>
+                <p>Schedule: {data.vac_time===0? "Not queue yet": `${data.vac_time}:00`}</p>
+                <p>Status: {data.vaccinated ? "vaccinated" : "not vaccinated"}</p>
+                <button onClick = {()=> {
+                    history.push("/detail")
+                }}>Back</button>
             </div>
         </div>
     )

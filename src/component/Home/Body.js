@@ -16,7 +16,7 @@ const Body = () => {
                 </tr>
                 <tr>
                     <td><div className="box">
-                        <h2>Walk In</h2>
+                        <h2><Link to="/walkin">Walk In</Link></h2>
                     </div></td>
                     <td><div className="box">
                         <h2><Link to="/contact">Contact Us</Link></h2>

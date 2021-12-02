@@ -8,6 +8,7 @@ import Home from './Home'
 import RegisterPage from './component/Register/RegisterPage'
 import Contact from './Contact'
 import Reservation from './Reservation';
+import Walkin from './Walkin';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
                 <Route path="/login" component ={Login}/>
                 <Route path="/detail" component ={RegisterPage}/>
                 <Route path="/contact" component = {Contact} />
-                <Route path="/reservation" component ={Reservation}/>
+                <Route path="/walkin" component = {Walkin} />
+                <Route path="/reservation/:id" children ={<Reservation/>}/>
               </Switch>
             </AuthProvider>
           </Router>
