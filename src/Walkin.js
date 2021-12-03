@@ -2,42 +2,18 @@ import React, {useState, useEffect} from 'react'
 import NavBar from './component/NavBar/NavBar'
 import Header from './component/Reservation/Header'
 import axios from 'axios'
-import { db } from './firebase'
-import { useAuth } from './contexts/AuthContext'
-import { useHistory } from 'react-router'
 export default function Walkin() {
-    const [id, setId] = useState()
-    const {currentUser} = useAuth()
     const today = new Date().toISOString()
-    const sub_today = today.substring(0,10)
+    const year = today.substring(0,4)
+    const month = today.substring(5,7)
+    const day = today.substring(8,10)
+    const result = `${day}-${month}-${year}`
     const [total, setTotal] = useState()
-    const history = useHistory()
-    const [data, setData] = useState({
-        citizen_id : "",
-        name : "",
-        surname: "",
-        occupation: "",
-        address: "",
-        reservations: [],
-    })
     useEffect(()=>{
-        axios.get(`https://suchonsite-server.herokuapp.com/people/count/walkin/${sub_today}`).then((resp) =>{
+        axios.get(`https://suchonsite-server.herokuapp.com/people/count/walkin/${result}`).then((resp) =>{
             setTotal(resp.data['total_walkin'])
         })
-    },[sub_today,total])
-    useEffect (() => {
-        async function fetch() {
-            const query = await db.collection("users").where("uid", "==", currentUser.uid).get();
-            const id = query.docs[0].data().citizen_id
-            setId(id)
-        }
-        fetch();
-    },[currentUser])
-    useEffect (() => {
-        axios.get(`https://flamxby.herokuapp.com/user/${id}`).then(resp => {
-        setData(resp.data);
-        });
-    })
+    },[result])
     return (
         <div>
             <NavBar/>
