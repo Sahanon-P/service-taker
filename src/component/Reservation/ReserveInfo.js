@@ -16,7 +16,8 @@ const ReserveInfo = ({id}) => {
         "address": "",
         "priority": "",
         "vaccinated": false,
-        "vac_time": 0
+        "vac_time": 0,
+        "vaccination_date": "",
     })
     useEffect(()=>{
         axios.get(`https://suchonsite-server.herokuapp.com/people/by_reservationID/${id}`).then(resp => {
@@ -34,7 +35,7 @@ const ReserveInfo = ({id}) => {
                 {/* <p> {data} </p> */}
                 <p1 >Vaccine Reservation Detail</p1>
                 <p>ID: {id}</p>
-                <p>Date: </p>
+                <p>Date:{data.vaccination_date}</p>
                 <p>Schedule: {data.vac_time===0? "Not queue yet": `${data.vac_time}:00`}</p>
                 <p>Status: {data.vaccinated ? "vaccinated" : "not vaccinated"}</p>
                 <button onClick = {()=> {
